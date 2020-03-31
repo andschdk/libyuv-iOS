@@ -48,7 +48,6 @@
 		04CF45031ED4D077005E89A8 /* rotate_any.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44D51ED4D077005E89A8 /* rotate_any.cc */; };
 		04CF45041ED4D077005E89A8 /* rotate_argb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44D61ED4D077005E89A8 /* rotate_argb.cc */; };
 		04CF45051ED4D077005E89A8 /* rotate_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44D71ED4D077005E89A8 /* rotate_common.cc */; };
-		04CF45061ED4D077005E89A8 /* rotate_dspr2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44D81ED4D077005E89A8 /* rotate_dspr2.cc */; };
 		04CF45071ED4D077005E89A8 /* rotate_gcc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44D91ED4D077005E89A8 /* rotate_gcc.cc */; };
 		04CF45081ED4D077005E89A8 /* rotate_msa.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44DA1ED4D077005E89A8 /* rotate_msa.cc */; };
 		04CF45091ED4D077005E89A8 /* rotate_neon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44DB1ED4D077005E89A8 /* rotate_neon.cc */; };
@@ -57,7 +56,6 @@
 		04CF450C1ED4D077005E89A8 /* rotate.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44DE1ED4D077005E89A8 /* rotate.cc */; };
 		04CF450D1ED4D077005E89A8 /* row_any.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44DF1ED4D077005E89A8 /* row_any.cc */; };
 		04CF450E1ED4D077005E89A8 /* row_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44E01ED4D077005E89A8 /* row_common.cc */; };
-		04CF450F1ED4D077005E89A8 /* row_dspr2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44E11ED4D077005E89A8 /* row_dspr2.cc */; };
 		04CF45101ED4D077005E89A8 /* row_gcc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44E21ED4D077005E89A8 /* row_gcc.cc */; };
 		04CF45111ED4D077005E89A8 /* row_msa.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44E31ED4D077005E89A8 /* row_msa.cc */; };
 		04CF45121ED4D077005E89A8 /* row_neon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44E41ED4D077005E89A8 /* row_neon.cc */; };
@@ -66,7 +64,6 @@
 		04CF45151ED4D077005E89A8 /* scale_any.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44E71ED4D077005E89A8 /* scale_any.cc */; };
 		04CF45161ED4D077005E89A8 /* scale_argb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44E81ED4D077005E89A8 /* scale_argb.cc */; };
 		04CF45171ED4D077005E89A8 /* scale_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44E91ED4D077005E89A8 /* scale_common.cc */; };
-		04CF45181ED4D077005E89A8 /* scale_dspr2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44EA1ED4D077005E89A8 /* scale_dspr2.cc */; };
 		04CF45191ED4D077005E89A8 /* scale_gcc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44EB1ED4D077005E89A8 /* scale_gcc.cc */; };
 		04CF451A1ED4D077005E89A8 /* scale_msa.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44EC1ED4D077005E89A8 /* scale_msa.cc */; };
 		04CF451B1ED4D077005E89A8 /* scale_neon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44ED1ED4D077005E89A8 /* scale_neon.cc */; };
@@ -506,6 +503,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -559,7 +557,6 @@
 				04CF45131ED4D077005E89A8 /* row_neon64.cc in Sources */,
 				04CF44FC1ED4D077005E89A8 /* convert_to_argb.cc in Sources */,
 				04CF450E1ED4D077005E89A8 /* row_common.cc in Sources */,
-				04CF450F1ED4D077005E89A8 /* row_dspr2.cc in Sources */,
 				04CF450D1ED4D077005E89A8 /* row_any.cc in Sources */,
 				04CF45101ED4D077005E89A8 /* row_gcc.cc in Sources */,
 				04CF451B1ED4D077005E89A8 /* scale_neon.cc in Sources */,
@@ -577,7 +574,6 @@
 				04CF44FD1ED4D077005E89A8 /* convert_to_i420.cc in Sources */,
 				04CF45171ED4D077005E89A8 /* scale_common.cc in Sources */,
 				04CF44FE1ED4D077005E89A8 /* convert.cc in Sources */,
-				04CF45181ED4D077005E89A8 /* scale_dspr2.cc in Sources */,
 				04CF44F71ED4D077005E89A8 /* compare.cc in Sources */,
 				04CF45071ED4D077005E89A8 /* rotate_gcc.cc in Sources */,
 				04CF44F51ED4D077005E89A8 /* compare_neon64.cc in Sources */,
@@ -596,7 +592,6 @@
 				04CF44F31ED4D077005E89A8 /* compare_gcc.cc in Sources */,
 				04CF450B1ED4D077005E89A8 /* rotate_win.cc in Sources */,
 				04CF451A1ED4D077005E89A8 /* scale_msa.cc in Sources */,
-				04CF45061ED4D077005E89A8 /* rotate_dspr2.cc in Sources */,
 				04CF44F61ED4D077005E89A8 /* compare_win.cc in Sources */,
 				04CF451C1ED4D077005E89A8 /* scale_neon64.cc in Sources */,
 				04CF451D1ED4D077005E89A8 /* scale_win.cc in Sources */,
